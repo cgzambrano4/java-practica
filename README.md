@@ -7,5 +7,9 @@ Este proyecto imprime un mensaje en consola.
 - Java
 - Git
 
+## Cómo ejecutar
+1. Abrir en Eclipse
+2. Ejecutar Main.java
+
 ## Autor
 César Gabriel Zambrano Figueroa
