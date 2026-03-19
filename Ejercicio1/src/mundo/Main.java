@@ -1,9 +1,15 @@
 package mundo;
 
 public class Main {
-
+	
 	public static void main(String[] args) {
-		System.out.println("Hola César, este es tu progreso");
+		String nombre;
+		int edad;
+		
+		nombre = "César";
+		edad = 28;
+		
+		System.out.println("Hola mi nombre es: " + nombre + " y mi edad es: " + edad);
 	}
 
 }
