@@ -1,11 +1,15 @@
 package mundo;
 
+import java.util.ArrayList;
+
 public class Main {
 	
 	public static void main(String[] args) {
-		int[] numeros = {1,2,3,4};
+		ArrayList<String> nombres = new ArrayList<String>();
+		nombres.add("Ana");
+		nombres.add("Luis");
 		
-		for (int n : numeros) {
+		for (String n : nombres) {
 			System.out.println(n);
 		}
 	}
