@@ -1,12 +1,16 @@
 package mundo;
 
 public class Persona {
-	String nombre;
+	private String nombre;
 	int edad;
 	
 	public Persona(String nombre, int edad) {
 		this.nombre = nombre;
 		this.edad = edad;
+	}
+	
+	public String getNombre() {
+		return nombre;
 	}
 }
 
