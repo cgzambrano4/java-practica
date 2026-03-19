@@ -1,15 +1,15 @@
 package mundo;
 
+import java.util.Scanner;
+
 public class Main {
 	
 	public static void main(String[] args) {
-		String nombre;
-		int edad;
+		Scanner sc = new Scanner(System.in);
 		
-		nombre = "César";
-		edad = 28;
+		System.out.print("Ingrese su nombre: ");
+		String nombre = sc.nextLine();
 		
-		System.out.println("Hola mi nombre es: " + nombre + " y mi edad es: " + edad);
+		System.out.println("Hola " + nombre);
 	}
-
 }
